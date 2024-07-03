@@ -6,7 +6,7 @@ const Navbar1 = () => {
     <div className='sticky top-0 z-10'>
       <div className='flex flex-row py-3 bg-white'>
         <div className='title flex flex-row'>
-          <img className='h-10 w-14 pl-[10px]' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqljYVUcAM9Abvtqr-V3QYyA1YRk7ttp4mPg&s'></img>
+          <img className='h-10 w-14 pl-[10px]' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqljYVUcAM9Abvtqr-V3QYyA1YRk7ttp4mPg&s' alt='Img.jpg'></img>
           <div className='font-bold text-2xl'>Harvod</div>
         </div>
         <div className='flex flex-row mx-auto items-center'>
