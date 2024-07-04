@@ -9,6 +9,7 @@ import Victory from './Components/Victory';
 import AboutHarvod from './Components/AboutHarvod';
 import JoinUs from './Components/JoinUs';
 import Form from './Components/Form';
+import Footer from './Components/Footer';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <AboutHarvod/>
       <JoinUs/>
       <Form/>
+      <Footer/>
     </div>
   );
 }

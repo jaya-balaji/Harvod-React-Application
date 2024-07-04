@@ -13,7 +13,7 @@ const Victory = () => {
             <span className="text-3xl">Vibrant Community</span>
           </div>
           <div className="text-left">
-            <span>
+            <span className="text-black font-semibold text-opacity-55 text-left">
               Join a diverse and inclusive community where students from all
               backgrounds come together to learn and grow.
             </span>
@@ -23,7 +23,7 @@ const Victory = () => {
           <div className="text-left">
             <span className="text-3xl">Student Organizations</span>
           </div>
-          <div className="text-left">
+          <div className="text-black font-semibold text-opacity-55 text-left">
             <span>
               With over 200 student organizations, there are countless opportunities to get involved, develope leadership skills and make lifelong friends.
             </span>
@@ -33,7 +33,7 @@ const Victory = () => {
           <div className="text-left">
             <span className="text-3xl">Personalized learning</span>
           </div>
-          <div className="text-left">
+          <div className="text-black font-semibold text-opacity-55 text-left">
             <span>
               Benefit from small class sizes and personalized attention that ensure that you receive the support you need to succeed.
             </span>
