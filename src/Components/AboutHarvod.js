@@ -7,7 +7,7 @@ const AboutHarvod = () => {
         <span className='text-4xl font-medium text-black text-opacity-90'>Is more than just place to earn a degree - it's a place where you can</span>
         <span className='text-4xl font-medium text-black text-opacity-50'> discover your potential.</span>
       </div>
-      <div className='text-right flex-[5]'>
+      <div className='hidden text-right md:flex-[5]'>
         <span className='text-7xl'>About Harvod</span>
       </div>
     </div>

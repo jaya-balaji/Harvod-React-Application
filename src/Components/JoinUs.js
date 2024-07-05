@@ -27,7 +27,7 @@ const JoinUs = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-row gap-6 w-[50%]">
+      <div className="flex flex-row gap-6 ">
         <div className="flex gap-8 flex-col text-left">
           <div className="flex flex-col gap-4">
             <div>

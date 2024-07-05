@@ -4,7 +4,7 @@ import Girl from "../Assets/Girl.png";
 
 const Success = () => {
   return (
-    <div className="p-16 pb-4">
+    <div className="p-16 pb-4 w-[100%]">
       <div className="p-4 relative">
         <span className="absolute top-[65vh] text-6xl left-[5%] text-white ">Success Stories</span>
         <img src={SuccessImg} className="w-[100%] h-[80vh] rounded-xl" alt="Img.jpg"></img>

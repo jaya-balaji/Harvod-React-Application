@@ -11,7 +11,7 @@ const Main = () => {
         ></img>
         <div className="absolute inset-0 flex items-end justify-center">
           <div className="bg-black bg-opacity-50 p-4 w-full text-white">
-            <p className="text-7xl  text-left px-28 pr-96 pb-16 text-wrap">
+            <p className="text-8xl text-left px-28 pr-68 pb-16 text-wrap">
               Empowering the Future at Harvod University
             </p>
           </div>

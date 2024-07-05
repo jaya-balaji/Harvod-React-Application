@@ -7,10 +7,10 @@ const Exposure = () => {
     <>
     <div className="bg-slate-100">
       <div className="flex p-4">
-        <div className="w-3/5 py-12 text-left pl-12">
+        <div className="w-3/5 py-12 text-left pl-12 hidden md:block">
           <span className="font-serif text-6xl">Academic Excellence</span>
         </div>
-        <div className="w-2/5 p-4 pr-20 pt-8 text-left">
+        <div className="w-2/5 p-4 pr-20 pt-8 text-left font-semibold text-black text-opacity-60 ">
           <sapn>
             Broad term that encompasses various elements of a student's
             performance and achievements in the educational sphere. It refers to
@@ -35,11 +35,11 @@ const Exposure = () => {
                 </div>
               </div>
               <div>
-                <span className="font-bold text-lg">
+                <span className="font-semibold text-lg">
                   Our uiversity offers a wide range of undergraduates, graduate,
                   and{" "}
                 </span>
-                <span className="text-lg">
+                <span className="text-lg font-semibold text-black text-opacity-60">
                   professional programs that are recognized globally for their
                   excellence.
                 </span>
@@ -60,10 +60,10 @@ const Exposure = () => {
               </div>
 
               <div>
-                <span className="font-bold text-lg">
+                <span className="font-semibold text-lg">
                   Benefit from small class sizes and personalized attention{" "}
                 </span>
-                <span className="text-lg">
+                <span className="text-lg font-semibold text-black text-opacity-60">
                   that ensure you receive the support you need to succeed.
                 </span>
               </div>
@@ -82,11 +82,11 @@ const Exposure = () => {
                 </div>
               </div>
               <div>
-                <span className="font-bold text-lg">
+                <span className="font-semibold text-lg">
                   Engage in cutting-rdge researchalongside{" "}
                 </span>
-                <span className="text-lg">
-                  renewed faculty members whoare leaders in their feilds.
+                <span className="text-lg font-semibold text-black text-opacity-60">
+                  renewed faculty members who are leaders in their feilds.
                 </span>
               </div>
             </div>
@@ -94,7 +94,7 @@ const Exposure = () => {
         </div>
         <div className="col-span-6">
           <div>
-            <img className="" src={Photo} alt="img.jpg"></img>
+            <img className="h-[110vh] w-[100%]" src={Photo} alt="img.jpg"></img>
           </div>
         </div>
       </div>
@@ -104,8 +104,8 @@ const Exposure = () => {
             <span className="text-6xl font-serif">Amount Of All Student</span>
           </div>
           <div>
-            <span className="font-bold">3 Faculty </span>
-            <span className="font-light">/Since 1980</span>
+            <span className="font-semibold">3 Faculty </span>
+            <span className="font-semibold text-black text-opacity-65">/Since 1980</span>
           </div>
           <div>
             <span className="bg-blue-700 p-3 rounded text-white pt-2">See Details</span>

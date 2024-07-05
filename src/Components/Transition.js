@@ -37,7 +37,7 @@ const Transition = () => {
           <span className="text-left font-bold">704+</span>
         </div>
       </div>
-      <div className={`flex-col transition-width duration-1000 ease-in-out ${(one===3)?'flex-[4] scale-105 pl-3':'flex-[3] pl-3'}`} onMouseEnter={()=>transitionChange(3)} onMouseOut={()=>setshowContent(false)}>
+      <div className={`flex-col transition-width duration-1000 ease-in-out ${(one===3)?'flex-[4] scale-105 pl-3':(one===1)?'flex-[3] pl-0':'flex-[3] pl-3'}`} onMouseEnter={()=>transitionChange(3)} onMouseOut={()=>setshowContent(false)}>
         <div className="rounded-xl bg-custom-image h-[80vh] flex items-end">
           <div className="flex flex-col gap-2 text-left p-4">
             <span className="text-white text-xl font-serif">Faculty Of Informatics</span>

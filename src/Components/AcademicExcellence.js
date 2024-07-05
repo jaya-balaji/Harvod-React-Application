@@ -15,7 +15,7 @@ const AcademicExcellence = () => {
           </span>
         </div>
       </div>
-      <div className=" flex flex-[5] items-center justify-center">
+      <div className="hidden md:flex flex-[5] items-center justify-center">
         <span className="text-6xl">Academic Excellence</span>
       </div>
     </div>
